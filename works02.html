@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作品</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <!--CSS RESET-->
+    <link rel="stylesheet" type="text/css" href="css/slider-pro.min.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/examples.css" media="screen" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="project">
+        <div class="title">Project</div>
+        <ul>
+            <li>
+                <h3> 網頁</h3>
+                <p>○ 視覺設計及網頁切板
+                    <br>○ 響應式網頁製作與JQ應用</p>
+            </li>
+            <li>
+                <h3>平面</h3>
+                <p>○ 各式文宣印刷物印前設計
+                </p>
+            </li>
+            <li>
+                <h3>商品</h3>
+                <p>○ 商品設計與開發
+                    <br>○ 包裝設計
+                    <br> ○ 創意周邊小物</p>
+            </li>
+            <li>
+                <h3>其他</h3>
+                <p>○ 百貨公司陳列
+                    <br>○ 店頭櫥窗設計
+                    <br>○ 插畫人設</p>
+            </li>
+        </ul>
+    </div>
+    <div class="more">
+        <a href="works01.html"></a>
+        <p></p>
+        <a href="works03.html"></a>
+        <a href="works04.html"></a>
+    </div>
+    <div id="example3" class="slider-pro">
+        <div class="sp-slides">
+            <div class="sp-slide">
+                <img class="sp-image" data-src="images/other/g1.jpg" />
+                <!--p class="sp-layer sp-black sp-padding" data-position="bottomLeft" data-vertical="0" data-width="100%" data-show-transition="up">
+                        Lorem ipsum dolor sit amet, consectetur a
+                    </p--->
+            </div>
+            <div class="sp-slide">
+                <img class="sp-image" data-src="images/other/g2.jpg" />
+            </div>
+            <div class="sp-slide">
+                <img class="sp-image" data-src="images/other/g3.jpg" />
+            </div>
+            <div class="sp-slide">
+                <img class="sp-image" data-src="images/other/g4.jpg" />
+            </div>
+            <div class="sp-slide">
+                <img class="sp-image" data-src="images/other/g5.jpg" />
+            </div>
+            <div class="sp-slide">
+                <img class="sp-image" data-src="images/other/g6.jpg" />
+            </div>
+            <div class="sp-slide">
+                <img class="sp-image" data-src="images/other/g7.jpg" />
+            </div>
+            <div class="sp-slide">
+                <img class="sp-image" data-src="images/other/g8.jpg" />
+            </div>
+            <div class="sp-slide">
+                <img class="sp-image" data-src="images/other/g9.jpg" />
+            </div>
+            <div class="sp-slide">
+                <img class="sp-image" data-src="images/other/g10.jpg" />
+            </div>
+            <div class="sp-slide">
+                <img class="sp-image" data-src="images/other/g11.jpg" />
+            </div>
+            <div class="sp-slide">
+                <img class="sp-image" data-src="images/other/g12.jpg" />
+            </div>
+      
+        </div>
+
+        <!---small-->
+        <div class="sp-thumbnails">
+            <img class="sp-thumbnail" src="images/small/g1.jpg" />
+            <img class="sp-thumbnail" src="images/small/g2.jpg" />
+            <img class="sp-thumbnail" src="images/small/g3.jpg" />
+            <img class="sp-thumbnail" src="images/small/g4.jpg" />
+            <img class="sp-thumbnail" src="images/small/g5.jpg" />
+            <img class="sp-thumbnail" src="images/small/g6.jpg" />
+            <img class="sp-thumbnail" src="images/small/g7.jpg" />
+            <img class="sp-thumbnail" src="images/small/g8.jpg" />
+            <img class="sp-thumbnail" src="images/small/g9.jpg" />
+            <img class="sp-thumbnail" src="images/small/g10.jpg" />
+            <img class="sp-thumbnail" src="images/small/g11.jpg" />
+            <img class="sp-thumbnail" src="images/small/g12.jpg" />
+            
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.sliderPro.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function($) {
+            $('#example3').sliderPro({
+                width: 960,
+                height: 500,
+                fade: true,
+                arrows: true,
+                buttons: false,
+                fullScreen: true,
+                shuffle: true,
+                smallSize: 500,
+                mediumSize: 1000,
+                largeSize: 3000,
+                thumbnailArrows: true,
+                autoplay: false
+            });
+        });
+    </script>
+</body>
+
+</html>
